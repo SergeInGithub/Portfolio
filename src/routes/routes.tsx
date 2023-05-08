@@ -1,16 +1,16 @@
 import React from 'react';
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+} from 'react-router-dom';
+import { RootLayout } from '../layouts';
 import { Home } from '../pages';
 
-type routeConfigs = {
-  path: string;
-  name: string;
-  element: React.ReactElement;
-};
-
-export const routes: routeConfigs[] = [
-  {
-    path: '/',
-    name: 'Home',
-    element: <Home />,
-  },
-];
+export const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Home />} />
+    </Route>,
+  ),
+);
