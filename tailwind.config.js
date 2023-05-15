@@ -6,6 +6,7 @@ export default {
     extend: {
       colors: {
         dark: '#070707',
+        accentLight: '#19A7CE',
       },
     },
   },
