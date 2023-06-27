@@ -12,6 +12,7 @@ export default {
         light_gray: '#D9D9D9',
         light_gray2: '#B9B9B9',
         logo: '#444444',
+        darkWhite: '#EFEFEF',
       },
     },
   },
