@@ -1,6 +1,6 @@
 import React from 'react';
-import { SkillsCard } from '../components/SkillsCard';
+import ProjectsCard from '../components/ProjectsCard';
 
 export function Home() {
-  return <SkillsCard />;
+  return <ProjectsCard />;
 }
