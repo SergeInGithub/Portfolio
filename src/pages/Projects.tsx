@@ -1,7 +1,7 @@
 import React from 'react';
 import ProjectsCard from '../components/ProjectsCard';
 
-export default function Projects() {
+export function Projects() {
   return (
     <div>
       <h1 className="text-3xl font-semibold mb-14">Projects</h1>
